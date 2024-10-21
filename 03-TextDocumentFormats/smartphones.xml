@@ -9,4 +9,13 @@
         </specs>
         <price currency="USD">799</price>
     </smartphone>
+    <smartphone brand="Xiaomi" model="Note 9" releaseYear="2018">
+        <specs>
+            <screenSize unit="inch">6.3</screenSize>
+            <batteryCapacity unit="mAh">3000</batteryCapacity>
+            <storage unit="GB">128</storage>
+            <camera unit="MP">20</camera> 
+        </specs>
+        <price currency="USD">100</price>
+    </smartphone>
 </smartphones>

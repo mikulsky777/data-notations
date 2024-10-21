@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailInformation>
+    <sender>
+        <name>Randy Lahey</name>
+        <subject>Trailer Park</subject>
+    </sender>
+    <recipent>
+        <name>Julian Bubbles</name>
+        <MessageBody>Secure Information</MessageBody>
+    </recipent>
+</EmailInformation>

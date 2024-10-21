@@ -1,0 +1,23 @@
+<TransportationDevices>
+    <Transporter>
+        <Vehicle>Bus</Vehicle>
+        <Where>School</Where>
+        <Specs>
+            <Slow howMuch="very">Yes</Slow>
+        </Specs>
+    </Transporter>
+    <Transporter>
+        <Vehicle>Train</Vehicle>
+        <Where>Home</Where>
+        <Specs>
+            <Slow onTime="yes">No</Slow>
+        </Specs>
+    </Transporter>
+    <Transporter>
+        <Vehicle>On Foot</Vehicle>
+        <Where>Everywhere</Where>
+        <Specs>
+            <EcoFriendly healthy="very">Yes</EcoFriendly>
+        </Specs>
+    </Transporter>
+</TransportationDevices>
