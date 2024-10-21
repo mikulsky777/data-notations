@@ -1,0 +1,10 @@
+{
+    "brand": "Dell",
+    "model": "Inspiron 15",
+    "year": 2023,
+    "isTouchscreen": false,
+    "devices": ["touchpad","webcam"],
+    "keyboardLightning": true,
+    "memory (GB)": 1048,
+    "lightningType": "RGB" 
+}

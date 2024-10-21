@@ -53,5 +53,27 @@
             "Outerwear",
             "Accessories"
         ]
+    },
+    {
+        "name": "Gucci",
+        "founded": 1921,
+        "headquarters": "Florence, Italy",
+        "employees": 27000,
+        "products": [
+            "Premium Clothing",
+            "Elegant",
+            "Costs An Arm And A Leg"
+        ]
+    },
+    {
+        "name": "Prada",
+        "founded": 1913,
+        "headquarters": "Mediolan, Italy",
+        "employees": 15000,
+        "products": [
+            "Suits",
+            "Elegant",
+            "Expensive"
+        ]
     }
 ]
