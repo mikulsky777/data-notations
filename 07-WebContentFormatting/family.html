@@ -5,53 +5,134 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Family Information Form</title>
+    <style>
+        body{
+            font-family: Arial;
+            margin: 0;
+            padding: 0;
+            height: 100dvh;
+            background-color: #56667A;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .form-container {
+            background-color: #A7ADC6;
+            padding: 1em;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 500px;
+            width: 100%;
+            height: 80dvh;
+        }
+
+        h2 {
+            text-align: center;
+            color: aqua;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.5em;
+            font-weight: 600;
+        }
+
+        input:focus, select:focus, textarea:focus {
+            outline: #5F4B66;
+            transition: 0.5s;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 1em;
+            margin-bottom: 0.5em;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 100%;
+        }
+
+        input[type="date"] {
+            box-sizing: border-box;
+            padding: 1em;
+            margin-bottom: 0.5em;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 0.7em;
+            background-color: #5F4B66;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #372B3B;
+        }
+
+        * {
+            transition-duration: 0.5s;
+        }
+
+    </style>
 </head>
 
 <body>
 
     <h2>Family Information Form</h2>
 
-    <form action="#" method="post">
-        <div>
-            <label for="fullname">Full Name:</label>
-            <input type="text" id="fullname" name="fullname" required>
-        </div>
-
-        <div>
-            <label for="age">Age:</label>
-            <input type="number" id="age" name="age" required>
-        </div>
-
-        <div>
-            <label for="email">Email Address:</label>
-            <input type="email" id="email" name="email" required>
-        </div>
-
-        <div>
-            <label for="relationship">Relationship to You:</label>
-            <select id="relationship" name="relationship" required>
-                <option value="">Select Relationship</option>
-                <option value="parent">Parent</option>
-                <option value="sibling">Sibling</option>
-                <option value="child">Child</option>
-                <option value="spouse">Spouse</option>
-            </select>
-        </div>
-
-        <div>
-            <label for="birthdate">Date of Birth:</label>
-            <input type="date" id="birthdate" name="birthdate" required>
-        </div>
-
-        <div>
-            <label for="notes">Additional Information:</label>
-            <textarea id="notes" name="notes" rows="4"></textarea>
-        </div>
-
-        <div>
-            <input type="submit" value="Submit">
-        </div>
-    </form>
+    <div class="form-container">
+        <form action="#" method="post">
+            <div>
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+    
+            <div>
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+            </div>
+    
+            <div>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+    
+            <div>
+                <label for="relationship">Relationship to You:</label>
+                <select id="relationship" name="relationship" required>
+                    <option value="">Select Relationship</option>
+                    <option value="parent">Parent</option>
+                    <option value="sibling">Sibling</option>
+                    <option value="child">Child</option>
+                    <option value="spouse">Spouse</option>
+                </select>
+            </div>
+    
+            <div>
+                <label for="birthdate">Date of Birth:</label>
+                <input type="date" id="birthdate" name="birthdate" required>
+            </div>
+    
+            <div>
+                <label for="notes">Additional Information:</label>
+                <textarea id="notes" name="notes" rows="4"></textarea>
+            </div>
+    
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
 
 </body>
 
